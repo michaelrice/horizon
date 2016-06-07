@@ -1,0 +1,27 @@
+@import '/bootstrap/scss/bootstrap/mixins/_vendor-prefixes.scss';
+
+@import 'components/_context_selection';
+@import 'components/sidebar';
+@import 'components/pie_charts';
+
+.navbar-brand {
+
+  // The 114 is a legacy value to push the context-menu over
+  padding-right: 114px;
+}
+
+.help-info-continer {
+  background: red;
+  position: absolute;
+  width: 240px;
+}
+
+#help-info-block {
+  display: flex;
+  border: 10px solid black;
+  background: red;
+}
+
+div#help-info-block h1 {
+  font-size: 1.875em;
+}
