@@ -29,11 +29,11 @@ $(document).ready(function () {
     type: "GET",
     dataType: "html",
     success: function (data) {
-      $('#help-info-block').empty();
-      $('#help-info-block').html(data);
+      $('#help-info-content').empty();
+      $('#help-info-content').html(data);
     },
     error: function () {
-      $('#help-info-block').remove();
+      $('#help-info-content').remove();
     }
   });
 });

@@ -67,3 +67,19 @@
     }
   }
 }
+
+.help-info-container {
+  position: absolute;
+  width: 240px;
+  top: 80px;
+  right: 400px;
+}
+
+#help-info-content {
+  display: block;
+  border: 1px solid black;
+}
+
+div#help-info-content h1 {
+  font-size: 1.875em;
+}
